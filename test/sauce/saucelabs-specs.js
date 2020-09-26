@@ -41,7 +41,7 @@ wd.configureHttp({
   retries: 5,
 });
 
-var desired = JSON.parse(process.env.DESIRED || '{browserName: "chrome"}');
+var desired = JSON.parse(process.env.DESIRED || '{browserName: "safari"}');
 desired.name = 'example with ' + desired.browserName;
 desired.tags = ['tutorial'];
 
